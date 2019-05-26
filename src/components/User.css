@@ -1,0 +1,49 @@
+.FormVal {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    
+}
+.FormVal button {
+    font-family: inherit;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 500 500 500 500;
+    background-color: rgb(228, 17, 17);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.FormVal button:hover {
+    color: rgb(255, 253, 253);
+    background-color: rgb(26, 0, 128);
+}
+.FormVal input {
+    /* background: none; */
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 0.3rem;
+    margin: 1rem;
+}
+.FormVal input:active{
+    background: none;
+    outline: none;
+}
+.FormVal input:focus {
+    background: none;
+    outline: none;
+}
+
+.FormVal input::placeholder {
+    color: grey;
+    font-family: monospace;
+}
+.FormVal label {
+    border-radius: 0.8rem;
+    background-color: rgb(33, 43, 54);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: 
+}
